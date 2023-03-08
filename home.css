@@ -299,6 +299,11 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.home-navlink06 {
+  font-size: 18px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
 .home-btn-group {
   display: flex;
   align-items: center;
@@ -368,10 +373,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-navlink06 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .home-navlink07 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -389,6 +390,10 @@
   text-decoration: none;
 }
 .home-navlink11 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.home-navlink12 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -468,7 +473,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.home-navlink12 {
+.home-navlink13 {
   height: 50px;
   display: flex;
   align-items: center;
@@ -613,25 +618,25 @@
   align-items: flex-start;
   flex-direction: row;
 }
-.home-navlink13 {
+.home-navlink14 {
   display: contents;
 }
 .home-component {
   text-decoration: none;
 }
-.home-navlink14 {
+.home-navlink15 {
   display: contents;
 }
 .home-component1 {
   text-decoration: none;
 }
-.home-navlink15 {
+.home-navlink16 {
   display: contents;
 }
 .home-component2 {
   text-decoration: none;
 }
-.home-navlink16 {
+.home-navlink17 {
   display: contents;
 }
 .home-component3 {
@@ -817,7 +822,7 @@
   .home-text03 {
     color: var(--dl-color-backgrounds-primary);
   }
-  .home-navlink12 {
+  .home-navlink13 {
     align-self: flex-start;
     justify-content: flex-start;
   }
@@ -874,6 +879,9 @@
   .home-navlink05 {
     margin-left: var(--dl-space-space-unit);
   }
+  .home-navlink06 {
+    margin-left: var(--dl-space-space-unit);
+  }
   .home-icon {
     width: var(--dl-size-size-small);
     height: var(--dl-size-size-small);
@@ -892,7 +900,7 @@
     width: var(--dl-size-size-small);
     height: var(--dl-size-size-small);
   }
-  .home-navlink11 {
+  .home-navlink12 {
     margin-bottom: 0px;
     text-decoration: none;
   }
@@ -1016,7 +1024,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .home-navlink12 {
+  .home-navlink13 {
     height: auto;
     padding-top: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-unit);

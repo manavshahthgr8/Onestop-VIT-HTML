@@ -260,6 +260,10 @@
   margin-top: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-twounits);
 }
+.about-us-text14 {
+  color: #18b0b3;
+  text-decoration: underline;
+}
 .about-us-pricing {
   width: 100%;
   display: flex;
@@ -297,7 +301,7 @@
 .about-us-pricing-card:hover {
   transform: scale(1.02);
 }
-.about-us-text13 {
+.about-us-text16 {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-twounits);
@@ -309,12 +313,12 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.about-us-text14 {
+.about-us-text17 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.about-us-text17 {
+.about-us-text20 {
   font-size: 4rem;
   font-weight: 700;
 }
@@ -324,16 +328,16 @@
   margin-bottom: var(--dl-space-space-threeunits);
   flex-direction: column;
 }
-.about-us-text18 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.about-us-text19 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.about-us-text20 {
-  margin-bottom: var(--dl-space-space-unit);
-}
 .about-us-text21 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-us-text22 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-us-text23 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-us-text24 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .about-us-button1 {
@@ -360,7 +364,7 @@
 .about-us-pricing-card1:hover {
   transform: scale(1.02);
 }
-.about-us-text22 {
+.about-us-text25 {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-twounits);
@@ -372,22 +376,22 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.about-us-text23 {
+.about-us-text26 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.about-us-text26 {
+.about-us-text29 {
   font-size: 4rem;
   font-weight: 700;
 }
-.about-us-text27 {
+.about-us-text30 {
   font-size: 1.15rem;
   font-style: normal;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.about-us-text29 {
+.about-us-text32 {
   color: #595959;
   font-size: 0.75rem;
   margin-bottom: var(--dl-space-space-twounits);
@@ -398,16 +402,16 @@
   margin-bottom: var(--dl-space-space-threeunits);
   flex-direction: column;
 }
-.about-us-text30 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.about-us-text32 {
-  margin-bottom: var(--dl-space-space-unit);
-}
 .about-us-text33 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.about-us-text34 {
+.about-us-text35 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-us-text36 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-us-text37 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .about-us-button2 {
@@ -437,7 +441,7 @@
 .about-us-pricing-card2:hover {
   transform: scale(1.02);
 }
-.about-us-text35 {
+.about-us-text38 {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-twounits);
@@ -449,22 +453,22 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.about-us-text36 {
+.about-us-text39 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.about-us-text39 {
+.about-us-text42 {
   font-size: 4rem;
   font-weight: 700;
 }
-.about-us-text40 {
+.about-us-text43 {
   font-size: 1.15rem;
   font-style: normal;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.about-us-text42 {
+.about-us-text45 {
   color: #595959;
   font-size: 0.75rem;
   margin-bottom: var(--dl-space-space-twounits);
@@ -475,16 +479,16 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.about-us-text43 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.about-us-text45 {
-  margin-bottom: var(--dl-space-space-unit);
-}
 .about-us-text46 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .about-us-text48 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-us-text49 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-us-text51 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .about-us-button3 {
@@ -704,11 +708,11 @@
   .about-us-pricing-card1 {
     height: 529px;
   }
-  .about-us-text26 {
+  .about-us-text29 {
     font-size: 4rem;
     font-weight: 700;
   }
-  .about-us-text29 {
+  .about-us-text32 {
     color: rgb(89, 89, 89);
     font-size: 0.75rem;
   }
@@ -722,11 +726,11 @@
   .about-us-pricing-card2 {
     height: 616px;
   }
-  .about-us-text39 {
+  .about-us-text42 {
     font-size: 4rem;
     font-weight: 700;
   }
-  .about-us-text42 {
+  .about-us-text45 {
     color: rgb(89, 89, 89);
     font-size: 0.75rem;
   }
@@ -882,7 +886,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .about-us-text57 {
+  .about-us-text60 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -931,7 +935,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .about-us-text57 {
+  .about-us-text60 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
