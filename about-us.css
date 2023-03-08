@@ -76,7 +76,6 @@
 .about-us-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
-  text-decoration: none;
 }
 .about-us-mobile-menu {
   top: 0px;
@@ -136,6 +135,10 @@
   text-decoration: none;
 }
 .about-us-navlink09 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.about-us-navlink10 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -294,7 +297,7 @@
 .about-us-pricing-card:hover {
   transform: scale(1.02);
 }
-.about-us-text12 {
+.about-us-text13 {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-twounits);
@@ -306,12 +309,12 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.about-us-text13 {
+.about-us-text14 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.about-us-text16 {
+.about-us-text17 {
   font-size: 4rem;
   font-weight: 700;
 }
@@ -321,9 +324,6 @@
   margin-bottom: var(--dl-space-space-threeunits);
   flex-direction: column;
 }
-.about-us-text17 {
-  margin-bottom: var(--dl-space-space-unit);
-}
 .about-us-text18 {
   margin-bottom: var(--dl-space-space-unit);
 }
@@ -331,6 +331,9 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .about-us-text20 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-us-text21 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .about-us-button1 {
@@ -357,7 +360,7 @@
 .about-us-pricing-card1:hover {
   transform: scale(1.02);
 }
-.about-us-text21 {
+.about-us-text22 {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-twounits);
@@ -369,22 +372,22 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.about-us-text22 {
+.about-us-text23 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.about-us-text25 {
+.about-us-text26 {
   font-size: 4rem;
   font-weight: 700;
 }
-.about-us-text26 {
+.about-us-text27 {
   font-size: 1.15rem;
   font-style: normal;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.about-us-text28 {
+.about-us-text29 {
   color: #595959;
   font-size: 0.75rem;
   margin-bottom: var(--dl-space-space-twounits);
@@ -395,16 +398,16 @@
   margin-bottom: var(--dl-space-space-threeunits);
   flex-direction: column;
 }
-.about-us-text29 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.about-us-text31 {
+.about-us-text30 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .about-us-text32 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .about-us-text33 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-us-text34 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .about-us-button2 {
@@ -434,7 +437,7 @@
 .about-us-pricing-card2:hover {
   transform: scale(1.02);
 }
-.about-us-text34 {
+.about-us-text35 {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-twounits);
@@ -446,22 +449,22 @@
   margin-bottom: var(--dl-space-space-twounits);
   flex-direction: row;
 }
-.about-us-text35 {
+.about-us-text36 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.about-us-text38 {
+.about-us-text39 {
   font-size: 4rem;
   font-weight: 700;
 }
-.about-us-text39 {
+.about-us-text40 {
   font-size: 1.15rem;
   font-style: normal;
   margin-top: var(--dl-space-space-twounits);
   font-weight: 300;
 }
-.about-us-text41 {
+.about-us-text42 {
   color: #595959;
   font-size: 0.75rem;
   margin-bottom: var(--dl-space-space-twounits);
@@ -472,16 +475,16 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.about-us-text42 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.about-us-text44 {
+.about-us-text43 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .about-us-text45 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.about-us-text47 {
+.about-us-text46 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.about-us-text48 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .about-us-button3 {
@@ -512,7 +515,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.about-us-navlink10 {
+.about-us-navlink11 {
   display: contents;
 }
 .about-us-image1 {
@@ -528,12 +531,8 @@
   align-items: center;
   flex-direction: row;
 }
-.about-us-navlink11 {
-  margin-left: 0px;
-  text-decoration: none;
-}
 .about-us-navlink12 {
-  margin-left: var(--dl-space-space-unit);
+  margin-left: 0px;
   text-decoration: none;
 }
 .about-us-navlink13 {
@@ -541,6 +540,14 @@
   text-decoration: none;
 }
 .about-us-navlink14 {
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.about-us-navlink15 {
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.about-us-navlink16 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -630,6 +637,16 @@
     align-self: center;
     background-color: var(--dl-color-grays-black100);
   }
+  .about-us-text12 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .about-us-navlink15 {
+    font-weight: bold;
+  }
+  .about-us-navlink16 {
+    text-decoration: none;
+  }
 }
 @media(max-width: 1200px) {
   .about-us-logo {
@@ -687,11 +704,11 @@
   .about-us-pricing-card1 {
     height: 529px;
   }
-  .about-us-text25 {
+  .about-us-text26 {
     font-size: 4rem;
     font-weight: 700;
   }
-  .about-us-text28 {
+  .about-us-text29 {
     color: rgb(89, 89, 89);
     font-size: 0.75rem;
   }
@@ -705,11 +722,11 @@
   .about-us-pricing-card2 {
     height: 616px;
   }
-  .about-us-text38 {
+  .about-us-text39 {
     font-size: 4rem;
     font-weight: 700;
   }
-  .about-us-text41 {
+  .about-us-text42 {
     color: rgb(89, 89, 89);
     font-size: 0.75rem;
   }
@@ -792,6 +809,9 @@
   .about-us-navlink09 {
     text-decoration: none;
   }
+  .about-us-navlink10 {
+    text-decoration: none;
+  }
   .about-us-login1 {
     background-color: var(--dl-color-backgrounds-primary);
   }
@@ -862,7 +882,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .about-us-text56 {
+  .about-us-text57 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -911,7 +931,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .about-us-text56 {
+  .about-us-text57 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }

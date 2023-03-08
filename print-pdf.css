@@ -35,12 +35,17 @@
   font-size: 18px;
   text-decoration: none;
 }
-.print-pdf-navlink1 {
+.print-pdf-navlink01 {
   font-size: 18px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.print-pdf-navlink2 {
+.print-pdf-navlink02 {
+  font-size: 18px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.print-pdf-navlink03 {
   font-size: 18px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
@@ -74,10 +79,12 @@
   left: 0px;
   width: 100%;
   height: 100vh;
-  display: none;
+  display: flex;
   padding: 32px;
   z-index: 100;
   position: fixed;
+  transform: translateX(100%);
+  transition: 0.5s;
   flex-direction: column;
   justify-content: space-between;
   background-color: #fff;
@@ -125,6 +132,9 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .print-pdf-text05 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.print-pdf-text06 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .print-pdf-container02 {
@@ -175,16 +185,16 @@
   background-image: url('https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHx0aW1lfGVufDB8fHx8MTY3NDE5MDY1MA&ixlib=rb-4.0.3&w=1500');
   background-position: center;
 }
-.print-pdf-text06 {
+.print-pdf-text07 {
   text-align: center;
 }
-.print-pdf-text07 {
+.print-pdf-text08 {
   color: var(--dl-color-grays-white100);
 }
-.print-pdf-text09 {
+.print-pdf-text10 {
   color: var(--dl-color-grays-white100);
 }
-.print-pdf-text11 {
+.print-pdf-text12 {
   color: var(--dl-color-grays-white100);
 }
 .print-pdf-container04 {
@@ -205,10 +215,10 @@
   margin-left: var(--dl-space-space-twounits);
   flex-direction: column;
 }
-.print-pdf-text13 {
+.print-pdf-text14 {
   font-size: 3rem;
 }
-.print-pdf-text14 {
+.print-pdf-text15 {
   margin: var(--dl-space-space-halfunit);
   font-weight: 600;
 }
@@ -223,7 +233,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.print-pdf-text15 {
+.print-pdf-text16 {
   font-size: 18px;
   align-self: center;
   font-style: normal;
@@ -236,7 +246,7 @@
   align-self: center;
   margin-bottom: var(--dl-space-space-unit);
 }
-.print-pdf-text16 {
+.print-pdf-text17 {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -257,14 +267,14 @@
   align-items: flex-start;
   justify-content: center;
 }
-.print-pdf-text17 {
+.print-pdf-text18 {
   margin-left: var(--dl-space-space-halfunit);
   margin-right: var(--dl-space-space-twounits);
 }
-.print-pdf-text18 {
+.print-pdf-text19 {
   margin-left: var(--dl-space-space-halfunit);
 }
-.print-pdf-text19 {
+.print-pdf-text20 {
   font-size: 18px;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
@@ -286,14 +296,14 @@
   align-items: flex-start;
   justify-content: center;
 }
-.print-pdf-text20 {
+.print-pdf-text21 {
   margin-left: var(--dl-space-space-halfunit);
   margin-right: var(--dl-space-space-twounits);
 }
-.print-pdf-text21 {
+.print-pdf-text22 {
   margin-left: var(--dl-space-space-halfunit);
 }
-.print-pdf-text22 {
+.print-pdf-text23 {
   font-size: 18px;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
@@ -321,7 +331,7 @@
   align-self: center;
   margin-bottom: 0px;
 }
-.print-pdf-text23 {
+.print-pdf-text24 {
   font-size: 18px;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
@@ -339,11 +349,118 @@
 .print-pdf-button:hover {
   transform: scale(1.02);
 }
+.print-pdf-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.print-pdf-container12 {
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.print-pdf-navlink04 {
+  display: contents;
+}
+.print-pdf-image1 {
+  width: 126px;
+  height: 104px;
+  margin-bottom: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.print-pdf-nav3 {
+  flex: 0 0 auto;
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  flex-direction: row;
+}
+.print-pdf-navlink05 {
+  margin-left: 0px;
+  text-decoration: none;
+}
+.print-pdf-navlink06 {
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.print-pdf-navlink07 {
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.print-pdf-navlink08 {
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.print-pdf-navlink09 {
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.print-pdf-separator {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 0px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  border-color: #D9D9D9;
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.print-pdf-container13 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.print-pdf-icon-group1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.print-pdf-icon10 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-twounits);
+}
+
+.print-pdf-icon12 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-twounits);
+}
+
+.print-pdf-icon14 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  transition: 0.3s;
+}
+
 @media(max-width: 1600px) {
   .print-pdf-container03 {
     width: 529px;
   }
-  .print-pdf-text06 {
+  .print-pdf-text07 {
     text-align: center;
   }
   .print-pdf-container04 {
@@ -352,7 +469,7 @@
     border-width: 0px;
     justify-content: flex-start;
   }
-  .print-pdf-text13 {
+  .print-pdf-text14 {
     border-color: var(--dl-color-grays-dark100);
     border-width: 0px;
   }
@@ -366,12 +483,18 @@
     margin-top: var(--dl-space-space-unit);
     background-color: rgb(0, 0, 0);
   }
+  .print-pdf-navlink08 {
+    font-weight: bold;
+  }
+  .print-pdf-navlink09 {
+    text-decoration: none;
+  }
 }
 @media(max-width: 1200px) {
   .print-pdf-container03 {
     width: 644px;
   }
-  .print-pdf-text06 {
+  .print-pdf-text07 {
     text-align: center;
   }
   .print-pdf-form {
@@ -386,15 +509,22 @@
     width: 87px;
     height: 105px;
   }
+  .print-pdf-desktop-menu {
+    display: none;
+  }
   .print-pdf-navlink {
     font-size: 18px;
   }
-  .print-pdf-navlink1 {
+  .print-pdf-navlink01 {
     font-size: 18px;
   }
   .print-pdf-btn-group {
     width: 200px;
     height: 56px;
+    display: none;
+  }
+  .print-pdf-burger-menu {
+    display: flex;
   }
   .print-pdf-hero {
     padding: var(--dl-space-space-threeunits);
@@ -406,7 +536,7 @@
     background-image: url('https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHx0aW1lfGVufDB8fHx8MTY3NDE5MDY1MA&ixlib=rb-4.0.3&w=1500');
     background-position: top left;
   }
-  .print-pdf-text06 {
+  .print-pdf-text07 {
     width: 409px;
     text-align: center;
   }
@@ -419,10 +549,10 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .print-pdf-text13 {
+  .print-pdf-text14 {
     text-align: center;
   }
-  .print-pdf-text14 {
+  .print-pdf-text15 {
     text-align: center;
   }
   .print-pdf-form {
@@ -434,23 +564,17 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .print-pdf-desktop-menu {
-    display: none;
-  }
-  .print-pdf-navlink1 {
+  .print-pdf-navlink01 {
     margin-left: var(--dl-space-space-unit);
   }
-  .print-pdf-navlink2 {
+  .print-pdf-navlink02 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .print-pdf-navlink03 {
     margin-left: var(--dl-space-space-unit);
   }
   .print-pdf-text {
     margin-left: var(--dl-space-space-unit);
-  }
-  .print-pdf-btn-group {
-    display: none;
-  }
-  .print-pdf-burger-menu {
-    display: flex;
   }
   .print-pdf-icon {
     width: var(--dl-size-size-small);
@@ -481,7 +605,7 @@
   .print-pdf-container03 {
     width: 100%;
   }
-  .print-pdf-text06 {
+  .print-pdf-text07 {
     text-align: center;
   }
   .print-pdf-container04 {
@@ -489,6 +613,27 @@
   }
   .print-pdf-form {
     width: 666px;
+  }
+  .print-pdf-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .print-pdf-image1 {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .print-pdf-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .print-pdf-container13 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .print-pdf-text25 {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
 @media(max-width: 479px) {
@@ -507,12 +652,9 @@
   .print-pdf-container03 {
     width: 100%;
   }
-  .print-pdf-text06 {
+  .print-pdf-text07 {
     align-self: flex-start;
     text-align: center;
-  }
-  .print-pdf-text07 {
-    color: var(--dl-color-grays-white100);
   }
   .print-pdf-text08 {
     color: var(--dl-color-grays-white100);
@@ -526,6 +668,9 @@
   .print-pdf-text11 {
     color: var(--dl-color-grays-white100);
   }
+  .print-pdf-text12 {
+    color: var(--dl-color-grays-white100);
+  }
   .print-pdf-container04 {
     width: 479px;
   }
@@ -534,5 +679,21 @@
   }
   .print-pdf-form {
     width: 417px;
+  }
+  .print-pdf-footer {
+    padding: var(--dl-space-space-unit);
+  }
+  .print-pdf-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .print-pdf-container13 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .print-pdf-text25 {
+    text-align: center;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }

@@ -27,6 +27,9 @@
 .feature-card4-text4 {
   color: #999999;
 }
+.feature-card4-button {
+  background-color: var(--dl-color-backgrounds-primary);
+}
 .feature-card4-root-class-name {
   width: 100%;
 }
