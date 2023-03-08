@@ -80,7 +80,7 @@
   display: list-item;
 }
 .teleport-show {
-  transform: translateX(0%) !important;
+  transform: translateY(0%) !important;
 }
 .navbar-link {
   cursor: pointer;

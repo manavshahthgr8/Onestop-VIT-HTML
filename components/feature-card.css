@@ -29,7 +29,7 @@
   text-align: center;
   margin-bottom: var(--dl-space-space-unit);
 }
-.feature-card-navlink1 {
+.feature-card-link {
   color: var(--dl-color-backgrounds-primary);
   text-decoration: none;
   background-color: transparent;
