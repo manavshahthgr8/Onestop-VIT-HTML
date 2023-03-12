@@ -19,7 +19,7 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.navigation-links2-navlink4 {
+.navigation-links2-text {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
@@ -51,7 +51,7 @@
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links2-navlink4 {
+  .navigation-links2-text {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -234,11 +234,11 @@
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.login-navlink4 {
+.login-text7 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.login-navlink5 {
+.login-navlink4 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -360,7 +360,7 @@
   .login-image1 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .login-navlink5 {
+  .login-navlink4 {
     text-decoration: none;
   }
   .login-separator1 {
@@ -374,7 +374,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .login-text7 {
+  .login-text8 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -417,7 +417,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .login-text7 {
+  .login-text8 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }

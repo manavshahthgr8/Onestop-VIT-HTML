@@ -100,7 +100,7 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.health-navlink3 {
+.health-text {
   font-size: 18px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
@@ -173,19 +173,19 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.health-text {
+.health-text01 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.health-text1 {
+.health-text02 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.health-text2 {
+.health-text03 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.health-text3 {
+.health-text04 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.health-text4 {
+.health-text05 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .health-container2 {
@@ -230,14 +230,14 @@
   background-image: linear-gradient(90deg, rgba(187, 147, 49, 0.37) 0.00%,rgba(187, 147, 49, 0.37) 0.00%,rgba(200, 133, 28, 0.3) 100.00%),url("public/playground_assets/boys-hostel-room-vit-bhopal-2-scaled-e1580792898428-1500w.jpg");
   background-position: center;
 }
-.health-text5 {
+.health-text06 {
   font-size: 0.75rem;
   text-align: center;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-twounits);
   letter-spacing: 2px;
 }
-.health-text6 {
+.health-text07 {
   font-size: 3rem;
   text-align: center;
   margin-bottom: var(--dl-space-space-unit);
@@ -259,7 +259,7 @@
   max-width: var(--dl-size-size-maxwidth);
   flex-direction: column;
 }
-.health-text7 {
+.health-text08 {
   font-size: 3rem;
   margin-bottom: var(--dl-space-space-twounits);
 }
@@ -322,23 +322,23 @@
   align-items: center;
   flex-direction: row;
 }
-.health-navlink4 {
+.health-navlink3 {
   margin-left: 0px;
+  text-decoration: none;
+}
+.health-navlink4 {
+  margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .health-navlink5 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
+.health-text09 {
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .health-navlink6 {
-  margin-left: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.health-navlink7 {
-  margin-left: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.health-navlink8 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -389,7 +389,7 @@
   height: var(--dl-size-size-xsmall);
 }
 @media(max-width: 1600px) {
-  .health-text7 {
+  .health-text08 {
     font-size: 3rem;
   }
   .health-footer {
@@ -403,12 +403,12 @@
     background-repeat: contain;
     background-position: top right;
   }
-  .health-text5 {
+  .health-text06 {
     font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 2px;
   }
-  .health-text6 {
+  .health-text07 {
     font-size: 3rem;
   }
 }
@@ -454,7 +454,7 @@
   .health-navlink2 {
     margin-left: var(--dl-space-space-unit);
   }
-  .health-navlink3 {
+  .health-text {
     margin-left: var(--dl-space-space-unit);
   }
   .health-btn-group {
@@ -493,7 +493,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .health-text7 {
+  .health-text08 {
     text-align: center;
   }
   .health-container4 {
@@ -517,7 +517,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .health-text8 {
+  .health-text10 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -563,7 +563,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .health-text8 {
+  .health-text10 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
