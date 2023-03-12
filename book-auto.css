@@ -80,12 +80,12 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.book-auto-navlink3 {
+.book-auto-link {
   font-size: 18px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.book-auto-navlink4 {
+.book-auto-navlink3 {
   font-size: 18px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
@@ -406,15 +406,15 @@
   align-items: center;
   flex-direction: row;
 }
-.book-auto-navlink5 {
+.book-auto-navlink4 {
   margin-left: 0px;
   text-decoration: none;
 }
-.book-auto-navlink6 {
+.book-auto-navlink5 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.book-auto-navlink7 {
+.book-auto-navlink6 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -422,7 +422,7 @@
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.book-auto-navlink8 {
+.book-auto-navlink7 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -601,10 +601,10 @@
   .book-auto-navlink2 {
     margin-left: var(--dl-space-space-unit);
   }
-  .book-auto-navlink3 {
+  .book-auto-link {
     margin-left: var(--dl-space-space-unit);
   }
-  .book-auto-navlink4 {
+  .book-auto-navlink3 {
     margin-left: var(--dl-space-space-unit);
   }
   .book-auto-btn-group {

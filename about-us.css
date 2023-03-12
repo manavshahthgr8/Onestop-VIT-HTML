@@ -45,11 +45,11 @@
 .about-us-navlink03 {
   margin-left: var(--dl-space-space-twounits);
 }
-.about-us-navlink04 {
+.about-us-link {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.about-us-navlink05 {
+.about-us-navlink04 {
   margin-left: var(--dl-space-space-twounits);
 }
 .about-us-btn-group {
@@ -123,6 +123,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.about-us-navlink05 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .about-us-navlink06 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -131,15 +135,11 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.about-us-navlink08 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .about-us-text {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.about-us-navlink09 {
+.about-us-navlink08 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -520,7 +520,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.about-us-navlink10 {
+.about-us-navlink09 {
   display: contents;
 }
 .about-us-image1 {
@@ -536,15 +536,15 @@
   align-items: center;
   flex-direction: row;
 }
-.about-us-navlink11 {
+.about-us-navlink10 {
   margin-left: 0px;
   text-decoration: none;
 }
-.about-us-navlink12 {
+.about-us-navlink11 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.about-us-navlink13 {
+.about-us-navlink12 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -552,7 +552,7 @@
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.about-us-navlink14 {
+.about-us-navlink13 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -649,7 +649,7 @@
   .about-us-text61 {
     font-weight: bold;
   }
-  .about-us-navlink14 {
+  .about-us-navlink13 {
     text-decoration: none;
   }
 }
@@ -781,10 +781,10 @@
   .about-us-navlink03 {
     margin-left: var(--dl-space-space-unit);
   }
-  .about-us-navlink04 {
+  .about-us-link {
     margin-left: var(--dl-space-space-unit);
   }
-  .about-us-navlink05 {
+  .about-us-navlink04 {
     margin-left: var(--dl-space-space-unit);
   }
   .about-us-btn-group {
@@ -808,13 +808,13 @@
     width: var(--dl-size-size-small);
     height: var(--dl-size-size-small);
   }
-  .about-us-navlink08 {
+  .about-us-navlink07 {
     text-decoration: none;
   }
   .about-us-text {
     text-decoration: none;
   }
-  .about-us-navlink09 {
+  .about-us-navlink08 {
     text-decoration: none;
   }
   .about-us-login1 {

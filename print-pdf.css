@@ -54,7 +54,7 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.print-pdf-text {
+.print-pdf-link {
   font-size: 18px;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
@@ -149,7 +149,7 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.print-pdf-text01 {
+.print-pdf-text {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -211,16 +211,16 @@
   background-image: url('https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHx0aW1lfGVufDB8fHx8MTY3NDE5MDY1MA&ixlib=rb-4.0.3&w=1500');
   background-position: center;
 }
-.print-pdf-text02 {
+.print-pdf-text01 {
   text-align: center;
 }
-.print-pdf-text03 {
+.print-pdf-text02 {
   color: var(--dl-color-grays-white100);
 }
-.print-pdf-text05 {
+.print-pdf-text04 {
   color: var(--dl-color-grays-white100);
 }
-.print-pdf-text07 {
+.print-pdf-text06 {
   color: var(--dl-color-grays-white100);
 }
 .print-pdf-container04 {
@@ -241,10 +241,10 @@
   margin-left: var(--dl-space-space-twounits);
   flex-direction: column;
 }
-.print-pdf-text09 {
+.print-pdf-text08 {
   font-size: 3rem;
 }
-.print-pdf-text10 {
+.print-pdf-text09 {
   margin: var(--dl-space-space-halfunit);
   font-weight: 600;
 }
@@ -259,7 +259,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.print-pdf-text11 {
+.print-pdf-text10 {
   font-size: 18px;
   align-self: center;
   font-style: normal;
@@ -272,7 +272,7 @@
   align-self: center;
   margin-bottom: var(--dl-space-space-unit);
 }
-.print-pdf-text12 {
+.print-pdf-text11 {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -293,14 +293,14 @@
   align-items: flex-start;
   justify-content: center;
 }
-.print-pdf-text13 {
+.print-pdf-text12 {
   margin-left: var(--dl-space-space-halfunit);
   margin-right: var(--dl-space-space-twounits);
 }
-.print-pdf-text14 {
+.print-pdf-text13 {
   margin-left: var(--dl-space-space-halfunit);
 }
-.print-pdf-text15 {
+.print-pdf-text14 {
   font-size: 18px;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
@@ -322,14 +322,14 @@
   align-items: flex-start;
   justify-content: center;
 }
-.print-pdf-text16 {
+.print-pdf-text15 {
   margin-left: var(--dl-space-space-halfunit);
   margin-right: var(--dl-space-space-twounits);
 }
-.print-pdf-text17 {
+.print-pdf-text16 {
   margin-left: var(--dl-space-space-halfunit);
 }
-.print-pdf-text18 {
+.print-pdf-text17 {
   font-size: 18px;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
@@ -357,7 +357,7 @@
   align-self: center;
   margin-bottom: 0px;
 }
-.print-pdf-text19 {
+.print-pdf-text18 {
   font-size: 18px;
   font-style: normal;
   margin-top: var(--dl-space-space-unit);
@@ -422,7 +422,7 @@
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.print-pdf-text20 {
+.print-pdf-text19 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -490,7 +490,7 @@
   .print-pdf-container03 {
     width: 529px;
   }
-  .print-pdf-text02 {
+  .print-pdf-text01 {
     text-align: center;
   }
   .print-pdf-container04 {
@@ -499,7 +499,7 @@
     border-width: 0px;
     justify-content: flex-start;
   }
-  .print-pdf-text09 {
+  .print-pdf-text08 {
     border-color: var(--dl-color-grays-dark100);
     border-width: 0px;
   }
@@ -513,7 +513,7 @@
     margin-top: var(--dl-space-space-unit);
     background-color: rgb(0, 0, 0);
   }
-  .print-pdf-text20 {
+  .print-pdf-text19 {
     font-weight: bold;
   }
   .print-pdf-navlink15 {
@@ -524,7 +524,7 @@
   .print-pdf-container03 {
     width: 644px;
   }
-  .print-pdf-text02 {
+  .print-pdf-text01 {
     text-align: center;
   }
   .print-pdf-form {
@@ -567,7 +567,7 @@
     background-image: url('https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHx0aW1lfGVufDB8fHx8MTY3NDE5MDY1MA&ixlib=rb-4.0.3&w=1500');
     background-position: top left;
   }
-  .print-pdf-text02 {
+  .print-pdf-text01 {
     width: 409px;
     text-align: center;
   }
@@ -581,10 +581,10 @@
     margin-bottom: var(--dl-space-space-twounits);
     justify-content: space-between;
   }
-  .print-pdf-text09 {
+  .print-pdf-text08 {
     text-align: center;
   }
-  .print-pdf-text10 {
+  .print-pdf-text09 {
     text-align: center;
   }
   .print-pdf-form {
@@ -608,7 +608,7 @@
   .print-pdf-navlink04 {
     margin-left: var(--dl-space-space-unit);
   }
-  .print-pdf-text {
+  .print-pdf-link {
     margin-left: var(--dl-space-space-unit);
   }
   .print-pdf-navlink05 {
@@ -656,7 +656,7 @@
   .print-pdf-container03 {
     width: 100%;
   }
-  .print-pdf-text02 {
+  .print-pdf-text01 {
     text-align: center;
   }
   .print-pdf-container04 {
@@ -683,7 +683,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .print-pdf-text21 {
+  .print-pdf-text20 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -711,9 +711,12 @@
   .print-pdf-container03 {
     width: 100%;
   }
-  .print-pdf-text02 {
+  .print-pdf-text01 {
     align-self: flex-start;
     text-align: center;
+  }
+  .print-pdf-text02 {
+    color: var(--dl-color-grays-white100);
   }
   .print-pdf-text03 {
     color: var(--dl-color-grays-white100);
@@ -725,9 +728,6 @@
     color: var(--dl-color-grays-white100);
   }
   .print-pdf-text06 {
-    color: var(--dl-color-grays-white100);
-  }
-  .print-pdf-text07 {
     color: var(--dl-color-grays-white100);
   }
   .print-pdf-container04 {
@@ -751,7 +751,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .print-pdf-text21 {
+  .print-pdf-text20 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }

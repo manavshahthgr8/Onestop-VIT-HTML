@@ -118,13 +118,13 @@
 .footer-navlink4 {
   text-decoration: none;
 }
+.footer-link {
+  text-decoration: none;
+}
 .footer-navlink5 {
   text-decoration: none;
 }
 .footer-navlink6 {
-  text-decoration: none;
-}
-.footer-navlink7 {
   margin-bottom: 0px;
   text-decoration: none;
 }
@@ -136,7 +136,7 @@
   }
 }
 @media(max-width: 1200px) {
-  .footer-navlink6 {
+  .footer-navlink5 {
     text-decoration: none;
   }
 }
