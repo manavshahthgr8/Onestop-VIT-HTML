@@ -92,14 +92,10 @@
   align-items: center;
   flex-direction: column;
 }
-.login-link {
-  display: contents;
-}
 .login-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   display: none;
-  text-decoration: none;
 }
 .login-accordion-content {
   display: flex;
@@ -222,8 +218,12 @@
   align-items: center;
   flex-direction: row;
 }
-.login-navlink1 {
+.login-link {
   margin-left: 0px;
+  text-decoration: none;
+}
+.login-navlink1 {
+  margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .login-navlink2 {
@@ -239,10 +239,6 @@
   text-decoration: none;
 }
 .login-navlink5 {
-  margin-left: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.login-navlink6 {
   margin-left: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -349,6 +345,8 @@
     display: none;
   }
   .login-icon {
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
     display: flex;
   }
   .login-hero {
@@ -362,7 +360,7 @@
   .login-image1 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .login-navlink6 {
+  .login-navlink5 {
     text-decoration: none;
   }
   .login-separator1 {
